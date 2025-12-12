@@ -1,0 +1,20 @@
+<!-- BEGIN CONTAINER -->
+
+<div class="page-container" th:fragment="contain">
+	<!-- BEGIN SIDEBAR -->
+	<div th:replace="admin/fragments/contain/sidebar :: sidebar"></div>
+
+	<!-- END SIDEBAR -->
+
+	<!-- BEGIN CONTENT -->	
+	<div th:replace="admin/fragments/contain/content :: content"></div>
+	
+	<!-- END CONTENT -->
+
+	<!-- BEGIN QUICK SIDEBAR -->	
+	<div th:replace="admin/fragments/contain/q_sidebar :: q_sidebar"></div>
+	
+	<!-- END QUICK SIDEBAR -->
+
+</div>
+<!-- END CONTAINER -->
